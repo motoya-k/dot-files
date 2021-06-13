@@ -18,6 +18,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " tendr.vim
     Plug 'jacoborus/tender.vim'
+    " tree
+    Plug 'preservim/nerdtree'
 call plug#end()
 
 """
