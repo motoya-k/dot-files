@@ -1,0 +1,95 @@
+{
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Esc>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
+    },
+    {
+      "before": ["s"],
+      "after": ["\"", "_", "s"]
+    },
+    {
+      "before": ["p"],
+      "after": ["\"", "_", "d", "P"]
+    },
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"]
+    },
+    {
+      "before": ["<Leader>", "c"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["<Leader>", "w"],
+      "after": [],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-n>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-b>": false,
+    "<C-j>": false,
+    "<C-k>": false,
+    "<C-w>": false
+  },
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.visualstar": true,
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.mypyEnabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "redhat.telemetry.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Iceberg",
+  "explorer.confirmDelete": false
+}
