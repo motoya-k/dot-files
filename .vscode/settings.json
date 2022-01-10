@@ -9,10 +9,29 @@
     "editor.tabSize": 4,
     "files.insertFinalNewline": true
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.useSystemClipboard": true,
   "python.formatting.provider": "black",
   "python.linting.enabled": true,
   "python.linting.flake8Enabled": false,
   "python.linting.pycodestyleEnabled": false,
   "python.linting.pylintEnabled": false,
-  "python.linting.mypyEnabled": true
+  "python.linting.mypyEnabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "redhat.telemetry.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "window.zoomLevel": -1,
+  "git.autofetch": true
 }
